@@ -182,7 +182,7 @@ print(f"Estimated Market Price: ${estimated_price:,.2f}")
 
 ---
 
-## 📜 License & Citation
+##  License & Citation
 
 This project is released under the [MIT License](LICENSE).  
 Dataset provided by Dean De Cock (Truman State University), *Ames, Iowa: Alternative to the Boston Housing Data as an End of Semester Regression Project*.
