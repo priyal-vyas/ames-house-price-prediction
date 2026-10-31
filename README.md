@@ -1,4 +1,4 @@
-# 🏡 Ames Housing Price Prediction & Real Estate Valuation Platform
+#  Ames Housing Price Prediction & Real Estate Valuation Platform
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.3%2B-orange.svg?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
@@ -12,7 +12,7 @@ The system features **automated leak-free preprocessing pipelines**, comprehensi
 
 ---
 
-## 📌 Project Highlights
+##  Project Highlights
 
 - **Zero Data Leakage Architecture**: Engineered modular `scikit-learn` `ColumnTransformer` pipelines ensuring preprocessing transformations (median/constant imputation, standard scaling, and one-hot encoding) are fitted strictly on training folds.
 - **Robust Model Benchmarking**: Evaluated parametric and non-parametric architectures (Multiple Linear Regression, Random Forest Regressor, and XGBoost Regressor).
@@ -22,7 +22,7 @@ The system features **automated leak-free preprocessing pipelines**, comprehensi
 
 ---
 
-## 🏗️ Architecture & Workflow
+##  Architecture & Workflow
 
 ```mermaid
 flowchart TD
@@ -51,7 +51,7 @@ flowchart TD
 
 ---
 
-## 📊 Model Performance Benchmarking
+##  Model Performance Benchmarking
 
 All models were evaluated on the same held-out 20% test dataset ($N = 586$ properties):
 
@@ -60,7 +60,7 @@ All models were evaluated on the same held-out 20% test dataset ($N = 586$ prope
 | **Multiple Linear Regression** | 0.8943 | \$15,674.41 | \$29,110.19 | 0.8840 |
 | **Random Forest Regressor** | 0.9107 | \$15,767.41 | \$26,759.52 | 0.8970 |
 | **XGBoost Regressor (Baseline)** | 0.9063 | \$15,320.39 | \$27,404.86 | 0.9028 |
-| **XGBoost Regressor (Tuned)** 🏆 | **0.9074** | **\$15,005.00** | **\$27,246.54** | **0.9059** |
+| **XGBoost Regressor (Tuned)**  | **0.9074** | **\$15,005.00** | **\$27,246.54** | **0.9059** |
 
 ### Optimal Hyperparameters (GridSearchCV)
 - `n_estimators`: `200`
@@ -69,7 +69,7 @@ All models were evaluated on the same held-out 20% test dataset ($N = 586$ prope
 
 ---
 
-## 🔍 Key Feature Drivers
+##  Key Feature Drivers
 
 Feature importance weights extracted from the optimized XGBoost model indicate that real estate valuations are primarily driven by:
 
@@ -81,7 +81,7 @@ Feature importance weights extracted from the optimized XGBoost model indicate t
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```text
 ├── app.py                     # Streamlit interactive valuation application
@@ -111,7 +111,7 @@ Feature importance weights extracted from the optimized XGBoost model indicate t
 
 ---
 
-## 🚀 Quickstart & Setup Guide
+##  Quickstart & Setup Guide
 
 ### 1. Clone the Repository
 ```bash
@@ -171,7 +171,7 @@ print(f"Estimated Market Price: ${estimated_price:,.2f}")
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Language**: Python 3.10+
 - **Machine Learning**: Scikit-Learn, XGBoost
